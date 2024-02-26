@@ -34,6 +34,7 @@ android {
                 arguments.add(0, "-DANDROID_STL=c++_static")
                 arguments.add(0, "-DSENTRY_NATIVE_SRC=$sentryNativeSrc")
                 arguments.add(0, "-DSENTRY_SDK_NAME=$sentryAndroidSdkName")
+                arguments.add(0, "-DSENTRY_BACKEND=breakpad")
             }
         }
 
